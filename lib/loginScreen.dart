@@ -52,10 +52,9 @@ class _LoginPageState extends State<LoginPage> {
 
   Widget _icon() {
     return Container(
-      decoration: BoxDecoration(
-          border: Border.all(color: Color.fromARGB(255, 6, 31, 75), width: 2),
-          shape: BoxShape.circle),
-      child: const Icon(Icons.person, color: Color.fromARGB(255, 3, 0, 85), size: 120),
+      width: 200,
+      height: 200,
+      child: Image.asset('assets/images/logo.png')
     );
   }
 

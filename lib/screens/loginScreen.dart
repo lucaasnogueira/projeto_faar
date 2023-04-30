@@ -52,10 +52,7 @@ class _LoginPageState extends State<LoginPage> {
 
   Widget _icon() {
     return Container(
-      width: 200,
-      height: 200,
-      child: Image.asset('assets/images/logo.png')
-    );
+        width: 200, height: 200, child: Image.asset('assets/images/logo.png'));
   }
 
   Widget _inputField(String hintText, TextEditingController controller,
